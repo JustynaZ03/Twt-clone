@@ -1,0 +1,47 @@
+.trending {
+  * {
+    background-color: rgb(32, 32, 39);
+  }
+  &__top-trending,
+  &__center-tweet,
+  &__bottom-count {
+    background-color: rgb(32, 32, 39);
+  }
+  &__center-dots {
+    //background-color: rgb(32, 32, 39);
+  }
+  &__center-dots {
+    display: inline-block;
+    float: right;
+    margin: 5%;
+    cursor: pointer;
+  }
+  &__center-dots-image {
+    width: 20px;
+    height: 20px;
+  }
+  &__center-tweet-span {
+    font-size: 23px;
+    color: white;
+    font-weight: bolder;
+    margin: 5%;
+  }
+  &__top-trending-span,
+  &__bottom-count-span {
+    font-size: 13px;
+    color: rgb(129, 129, 129);
+    margin: 5%;
+  }
+  &__bottom-count {
+    margin-bottom: 6%;
+  }
+
+  // &__bottom-hashtag {
+  //   background-color: rgb(32, 32, 39);
+  //   color: white;
+  //   margin: 3%;
+  // }
+}
+.trending:hover {
+  background-color: rgb(27, 27, 27) !important;
+}

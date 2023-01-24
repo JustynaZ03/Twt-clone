@@ -1,0 +1,58 @@
+.hashtags {
+  height: 100%;
+  width: 30%;
+  border-left: solid 0.1px gray;
+  position: fixed;
+  display: table-cell;
+  flex-direction: column;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+  &__top-search {
+    background: url("./../../icons/search.png") no-repeat scroll 15px 13px;
+    background-size: 20px 20px;
+    padding: 3% 10%;
+    margin: 5% 5%;
+    width: 70%;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(32, 32, 39);
+    color: gray;
+  }
+  &__bottom {
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(32, 32, 39);
+    //height: 80%;
+    width: 70%;
+    padding-bottom: 5%;
+    margin: auto 5%;
+  }
+  &__bottom-title {
+    background-color: rgb(32, 32, 39);
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+    border-radius: 20px;
+    padding: 5%;
+  }
+  &__bottom-hashtag,
+  &__bottom-hashtag-show {
+    background-color: rgb(32, 32, 39);
+  }
+  &__bottom-hashtag-show {
+    margin: 5%;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(1, 90, 255);
+    font-weight: bold;
+    //color: red;
+  }
+  &__footer {
+    width: 60%;
+    margin: 2% 10%;
+    border-top: solid 0.1px gray;
+    font-size: 20px;
+  }
+}

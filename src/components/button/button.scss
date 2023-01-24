@@ -1,0 +1,37 @@
+.button {
+  &__home {
+    color: white;
+    font-size: 18px;
+    padding: 2% 4%;
+    align-content: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 22px;
+    background-color: rgb(29, 155, 240);
+    cursor: pointer;
+  }
+  &__topbar {
+    @media only screen and (max-width: 1350px) {
+      display: none;
+    }
+    color: white;
+    font-size: 25px;
+    align-content: center;
+    font-weight: bold;
+    border: none;
+    padding: 3% 30%;
+    border-radius: 22px;
+    background-color: rgb(29, 155, 240);
+    cursor: pointer;
+  }
+  &__profile {
+    border: 2px solid gray;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    align-content: center;
+    font-weight: bold;
+    border-radius: 22px;
+    cursor: pointer;
+  }
+}

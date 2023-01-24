@@ -1,0 +1,57 @@
+.home {
+  height: 100%;
+  width: 39.5%;
+  display: table-cell;
+
+  @media only screen and (max-width: 600px) {
+    height: 100%;
+    width: 69%;
+    border-right: solid 0.1px gray;
+  }
+  &__top-title {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px;
+  }
+  &__top-title-item {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  &__top-sticky {
+    border-bottom: solid 0.1px gray;
+  }
+  &__top-tweet {
+    border-bottom: solid 0.1px gray;
+  }
+  &__top-tweet-image {
+    @media only screen and (max-width: 1350px) {
+      width: 50px;
+      height: 50px;
+    }
+    vertical-align: middle;
+  }
+  &__top-input {
+    background-color: black;
+    width: 60%;
+    padding: 4% 0%;
+    border: none;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+    color: white;
+  }
+  &__top-items-button {
+    color: white;
+    vertical-align: bottom;
+    font-size: 16px;
+    margin: 2%;
+    font-weight: bold;
+    border: none;
+    padding: 1% 2%;
+    border-radius: 22px;
+    background-color: rgb(29, 155, 240);
+    cursor: pointer;
+  }
+}

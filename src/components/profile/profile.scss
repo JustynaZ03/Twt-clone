@@ -1,0 +1,170 @@
+.profile {
+  height: 100%;
+  width: 39.5%;
+  display: table-cell;
+  @media only screen and (max-width: 600px) {
+    border-right: solid 0.1px gray;
+    width: 65%;
+  }
+
+  &__top-profile-content {
+    margin-bottom: 10%;
+  }
+
+  &__top-profile-content-images {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  &__top-profile-content-images-background {
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+  }
+  &__top-button-edit {
+    float: right;
+    width: 20%; //
+    margin-bottom: 3%;
+  }
+  &__top-profile-content-images-avatar {
+    @media only screen and (max-width: 600px) {
+      width: 60px;
+      height: 60px;
+
+      top: 120px;
+      left: 70px;
+    }
+    width: 150px;
+    height: 150px;
+
+    top: 60px;
+    left: 50px;
+    position: absolute;
+  }
+  @media only screen and (max-width: 1350px) {
+    // position: fixed;
+    height: 100%;
+    //width: 40%;
+    margin: auto 30.1%;
+  }
+  &__top-title {
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 20px;
+  }
+  &__top-arrow {
+    width: 20px;
+    margin-left: 3%;
+    cursor: pointer;
+  }
+  &__top-title-item {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  &__top-sticky {
+    border-bottom: solid 0.1px gray;
+  }
+  &__top-tweet {
+    border-bottom: solid 0.1px gray;
+  }
+  &__top-tweet-image {
+    vertical-align: middle;
+  }
+  &__top-input {
+    width: 60%;
+    padding: 4% 0%;
+    border: none;
+    font-size: 20px;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 2%;
+
+    color: white;
+  }
+
+  &__top-items-button {
+    color: white;
+    vertical-align: bottom;
+    font-size: 10px;
+    margin: 2%;
+    font-weight: bold;
+    border: none;
+    padding: 1% 2%;
+    border-radius: 22px;
+    background-color: rgb(29, 155, 240);
+    cursor: pointer;
+  }
+  &__top-profile-content-nickname-span {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  &__top-profile-content-nickname2-span {
+    color: gray;
+    font-size: 20px;
+  }
+  &__top-profile-content-nickname2 {
+    margin-bottom: 1%;
+  }
+  &__top-profile-content-descr-span {
+    color: white;
+  }
+  &__top-profile-content-nickname,
+  &__top-profile-content-nickname2 {
+    margin-left: 2%;
+  }
+  &__top-profile-content-descr {
+    position: initial;
+    margin-left: 2%;
+  }
+  &__top-profile-icons-info-location-image,
+  &__top-profile-icons-info-calendar-image {
+    width: 25px;
+    height: 25px;
+  }
+  &__top-profile-icons-info {
+    margin-top: 2%;
+    margin-left: 1%;
+  }
+  &__top-profile-icons-info-joined {
+    // margin-top: 5%;
+    width: 100%;
+  }
+  &__top-profile-icons-info-location,
+  &__top-profile-icons-info-calendar {
+    width: 25%;
+  }
+
+  &__top-profile-icons-info-location-span,
+  &__top-profile-icons-info-calendar-span {
+    margin: 2%;
+    font-size: 15px;
+    color: gray;
+  }
+  &__top-profile-icons-info {
+    display: flex;
+  }
+  &__top-profile-follow-info {
+    margin-top: 2%;
+    display: flex;
+    width: 100%;
+    margin-left: 2%;
+  }
+  &__top-profile-follow-info-following {
+    width: 20%;
+  }
+  &__top-profile-follow-info-followers {
+    width: 20%;
+    margin-right: 5%;
+  }
+  &__top-profile-follow-info-following-number,
+  &__top-profile-follow-info-followers-number {
+    color: gray;
+    padding: 3%;
+  }
+  &__top-profile-follow-info-following-following,
+  &__top-profile-follow-info-followers-followers {
+    color: white;
+  }
+}
